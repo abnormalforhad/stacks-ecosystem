@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: stfu
+            expected-sender: ST2NZE63G820YV104ZVT6ZG862SP2N8HW9B9HSNR
+            cost: 73923372
+            path: contracts/stfu.clar
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.3"
