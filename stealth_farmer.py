@@ -5,7 +5,7 @@ import time
 
 # --- CONFIGURATION ---
 TOTAL_COMMITS = 50       # How many green squares for today?
-FILENAME = "stackeco" # Changed to .txt to avoid gitignore errors
+FILENAME = "farming_activity.txt" # Changed to .txt to avoid gitignore errors
 # ---------------------
 
 def run_git(command):
