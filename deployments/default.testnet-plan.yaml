@@ -9,10 +9,10 @@ plan:
     - id: 0
       transactions:
         - contract-publish:
-            contract-name: stfu
-            expected-sender: ST2NZE63G820YV104ZVT6ZG862SP2N8HW9B9HSNR
-            cost: 73923372
-            path: contracts/stfu.clar
+            contract-name: ecoclone
+            expected-sender: ST2XBFMM4ZGDQHFG0CXSKREQ5V8D2621RYR3877QA
+            cost: 20467161
+            path: contracts/ecoclone.clar
             anchor-block-only: true
             clarity-version: 3
       epoch: "3.3"
